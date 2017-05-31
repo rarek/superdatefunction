@@ -6,7 +6,7 @@
  * @param string $sStart2
  * @param string $sEnd2
  * @param string $sEnd2
- * @thows Exception
+ * @throws Exception
  * @return array|bool
  */
 function time_range($sStart1, $sEnd1, $sStart2, $sEnd2, $sReturnFormat = "Y-m-d H:i:s.u O") {
