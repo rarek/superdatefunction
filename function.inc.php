@@ -73,7 +73,7 @@ class SuperDateTime extends DateTime  {
         || false === $this->aParsedData['minute'] ) {
             throw new Exception("Expects hour and minute to determine datetime range");
         }
-        return parent::__construct($time,$timezone);
+        parent::__construct($time,$timezone);
     }
 
     /**
